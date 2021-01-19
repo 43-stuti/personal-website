@@ -1,0 +1,28 @@
+The Dancing drawing robot was created to let people feel more comfortable about their bodies and their movements-about being weird sometimes.
+Some people love expressing while dancing; some do it while drawing. We thought, why don't we combine those two and crate something fun.
+
+Tools and Technologies 
+
+The robot
+- Our robot was driven by the arduino microcontroller, connected to DC and servo motors. 
+The robot moves from left to right using the DC motors and has arms that rotate 180 using the servo motor.
+** Add Images
+
+The Poses 
+- We picked out famouse dance moves and trained a model on ml5 to recognise the poses. 
+These poses were meant to act as a replacement for the standard front, back etc buttons on controllers used for robots.
+** Add Images **
+
+Connecting the robot and the poses.
+- We created a webpage that had a "menu" of poses available to the user. This webpage initiated an instance of our ml5 model to recognise the poses captured by the webcam.
+- This webpage was connected to a websocket server(built on NODEJS). 
+- The server on receiving the data forwards the data to our arduino through serial communication.
+** Add Images ** 
+The code for our webpage and server can be found here
+
+Add final video 
+
+Find the code here - 
+https://github.com/stuti-43m/scribblesV2
+
+We presented this project at the ITP/IMA winter show.
