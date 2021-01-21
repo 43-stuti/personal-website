@@ -13,6 +13,9 @@
                             :xs = 12
                             >
                             <v-img :src="item" aspect-ratio="1.5"></v-img>
+                            <div class="text-sm-body-1 text-md-body-1 text-lg-h5 text-xl-h5 font-weight-black text-left mt-n4 pa-0" v-if="index==1 && slug=='whatsapp-redesign'" >
+                                View a detailed case study <a class="anchor" href="https://medium.com/@stuti_mohgaonkar/ux-case-study-whatsapp-group-chat-redesign-7b0a31d4f732">here</a>
+                            </div>
                         </v-col>
                 </v-row>
              </v-container>
@@ -63,6 +66,9 @@ export default {
 
 </script>
 <style scoped>
+    .anchor {
+        color: rgb(205, 50, 89) !important;
+    }
     .Cover {
         height: 5%;
     }
