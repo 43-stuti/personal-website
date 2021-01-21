@@ -79,7 +79,7 @@
             <v-container align="center">
               <v-container class="ml-8">
                 <v-row align="center"> 
-                  <v-col class = "Welcome mt-12" align = "center"
+                  <v-col class = "Welcome mt-lg-12" align = "center"
                         :cols = 12
                         :lg = 8
                         :sm = 12
@@ -90,7 +90,7 @@
                         
                         </v-col>
                       </v-row>
-                      <v-row  class="mt-4" v-bind:class="[Classes.CoverText]" align='center'>
+                      <v-row  class="mt-lg-4" v-bind:class="[Classes.CoverText]" align='center'>
                         <v-col>
                           Hi, I am Stuti.  
                         </v-col>
@@ -132,12 +132,12 @@
               <v-col v-for = "(item,index) in tabs" 
                               :key="index"
                               :item="item" 
-                              :cols = 4
+                              :cols = 6
                               :lg = 2
                               :xl = 2
-                              :sm = 4
+                              :sm = 6
                               :md = 3
-                              :xs = 4
+                              :xs = 6
                               >
                     <div @click="changeTab(index)" :class="{active: state === index+1}">
                       {{item}}
