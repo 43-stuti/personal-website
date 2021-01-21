@@ -171,19 +171,19 @@
                 image: "/map-viz.png",
                 link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
                 }, { 
-                Title:"Connect",
-                Date: "20 Nov'19",
-                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
-                Tags: ['Puppeteer','NodeJS','RunwayML'],
-                image: "/connect.png",
-                link:"https://github.com/43-stuti/connect/blob/master/README.md"
-                }, { 
                 Title:"Vue website",
                 Date: "20 Nov'19",
                 Description:"A website built using Vue, vue-router and vue-store. Firebase for backend and threejs for subtle graphics",
                 Tags: ['VueJS','ThreeJs','Firebase'],
                 image: "/nm-creations.png",
                 link:"https://www.nmcreation.in/#/"
+                },{ 
+                Title:"Connect",
+                Date: "20 Nov'19",
+                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
+                Tags: ['Puppeteer','NodeJS','RunwayML'],
+                image: "/connect.png",
+                link:"https://github.com/43-stuti/connect/blob/master/README.md"
                 }, { 
                 Title:"Prophecy game",
                 Date: "20 Nov'19",
@@ -236,19 +236,19 @@
                 image: "/map-viz.png",
                 link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
                 }, { 
-                Title:"Connect",
-                Date: "20 Nov'19",
-                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
-                Tags: ['Puppeteer','NodeJS','RunwayML'],
-                image: "/connect.png",
-                link:"https://github.com/43-stuti/connect/blob/master/README.md"
-                }, { 
                 Title:"Vue website",
                 Date: "20 Nov'19",
                 Description:"A website built using Vue, vue-router and vue-store. Firebase for backend and threejs for subtle graphics",
                 Tags: ['VueJS','ThreeJs','Firebase'],
                 image: "/nm-creations.png",
                 link:"https://www.nmcreation.in/#/"
+                }, { 
+                Title:"Connect",
+                Date: "20 Nov'19",
+                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
+                Tags: ['Puppeteer','NodeJS','RunwayML'],
+                image: "/connect.png",
+                link:"https://github.com/43-stuti/connect/blob/master/README.md"
                 }, { 
                 Title:"Prophecy game",
                 Date: "20 Nov'19",

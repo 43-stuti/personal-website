@@ -32,7 +32,11 @@
                        
                     </v-col>
                     <v-col :cols = 8 class="body-1 font-weight-black text-left">
-                     {{routes.name}}
+                      <div>
+                        {{routes.name}}
+                      </div>
+                      <div class="underline" :class="{activeUnderline: activeNav === index}">
+                      </div>
                     </v-col>
                     
                   </v-row>
@@ -230,6 +234,9 @@ export default {
 </script>
 
 <style>
+ .v-application a .activeLink {
+    color: rgb(248, 247, 247) !important;
+  }
   .v-application a {
     color: #181818 !important;
   }
@@ -237,8 +244,12 @@ export default {
     color: none;
     text-decoration: none;
   }
-  .activeLink {
-    color: rgb(248, 247, 247) !important;
+  .underline {
+    height: 2px;
+    color: rgb(255, 255, 255);
+  }
+  .activeUnderline {
+    background-color:#f04a81
   }
   .navi {
     z-index: 100;
@@ -258,7 +269,7 @@ export default {
       margin-top: -100px;
   }
   .Welcome {
-       z-index: 1;
+    z-index: 1;
   }
   .active {
     color:#c53968;
