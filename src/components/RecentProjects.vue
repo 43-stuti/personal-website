@@ -159,14 +159,14 @@
                 }, {
                 Title:"The one where you are one of them",
                 Date: "20 Nov'19",
-                Description:"This is a chat application where you have your words twisted by characters from friends. Have your words twisted by a machine-learning model trained on FRIENDS script and take the group conversation in a completely unanticipated direction.",
+                Description:"This is a chat application where your words are twisted by characters from friends. A machine-learning model trained on FRIENDS script takes your group conversation in a completely unanticipated direction.",
                 Tags: ['NodeJS','VueJS','RunwayML'],
                 image: "/friends-chat.png",
                 link:"https://github.com/43-stuti/friends-chat-client/blob/master/README.md"
                 },{ 
                 Title:"Data Visualisation",
                 Date: "20 Nov'19",
-                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence, based on the popluation density of the region",
+                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence based on the popluation density of the region",
                 Tags: ['NodeJS','Javascript','Google Maps API'],
                 image: "/map-viz.png",
                 link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
@@ -210,7 +210,7 @@
                 slug: 'bubble-therapy',    
                 Title:"Bubble Therapy",
                 Date: "20 Nov'19",
-                Description:"A system to enable acceptance of menatl health",
+                Description:"A system to enable acceptance of mental health",
                 Tags: ['Side Project'],
                 image: "/bubble-therapy/cover.jpg"
                 }],
@@ -224,14 +224,14 @@
                 }, {
                 Title:"The one where you are one of them",
                 Date: "20 Nov'19",
-                Description:"This is a chat application have your words twisted by a machine-learning model trained on FRIENDS script and be a part of the chat as a character from friends.",
+                Description:"This is a chat application where your words are twisted by characters from friends. A machine-learning model trained on FRIENDS script takes your group conversation in a completely unanticipated direction.",
                 Tags: ['NodeJS','VueJS','RunwayML'],
                 image: "/friends-chat.png",
                 link:"https://github.com/43-stuti/friends-chat-client/blob/master/README.md"
                 },{ 
                 Title:"Data Visualisation",
                 Date: "20 Nov'19",
-                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence, based on the popluation density of the region",
+                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence based on the popluation density of the region",
                 Tags: ['NodeJS','Javascript','Google Maps API'],
                 image: "/map-viz.png",
                 link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
