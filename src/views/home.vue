@@ -7,9 +7,9 @@
               :sm = 12
               :md = 12
               :xs = 12>
-              <v-app-bar-nav-icon class="hidden-lg-and-up ml-12 mt-3" @click="drawer = !drawer">
+                <v-app-bar-nav-icon fixed class="hidden-lg-and-up ml-12 mt-3 fixnav" @click="drawer = !drawer">
 
-            </v-app-bar-nav-icon>
+              </v-app-bar-nav-icon>
     <v-navigation-drawer v-if="drawer"
                
               v-model="drawer"
@@ -216,6 +216,9 @@ export default {
     goToDiv(node,index) {
       var elmnt = this.$refs[node.ref]
       this.activeNav = index;
+      if(['xs','sm'].indexOf(this.$vuetify.breakpoint.name) > -1) {
+        this.drawer = !this.drawer
+      }
       elmnt.scrollIntoView();
     }
   },
@@ -234,6 +237,10 @@ export default {
 </script>
 
 <style>
+.fixnav {
+  position: fixed;
+  background-color: rgb(247, 247, 247)
+}
  .v-application a .activeLink {
     color: rgb(248, 247, 247) !important;
   }
