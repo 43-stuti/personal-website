@@ -6,7 +6,7 @@
                      :key="index"
                      :item="item" 
                     >
-                   <v-col  class="d-flex" :cols = 12
+                   <v-col class="d-flex" :cols = 12
                             :lg = 12
                             :sm = 12
                             :md = 12
@@ -42,7 +42,7 @@ export default {
             projects: {
                 'whatsapp-redesign':[1,2,3,4,5,6,7],
                 'my-community':[1,2,3,4,5,6],
-                'bubble-therpy':[1,2,3,4,5]
+                'bubble-therapy':[1,2,3,4,5]
             }
         }
     },

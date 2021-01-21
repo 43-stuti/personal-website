@@ -96,7 +96,7 @@
                                     :cols = 12
                                     :lg = 5
                                     :sm = 12
-                                    :md = 2 >
+                                    :md = 6 >
                                         <v-row class="d-block overlap">
                                             <div class="d-block text-h6 text-sm-h6 text-md-h4 text-lg-h5 text-xl-h4 text-left font-weight-bold white--text">
                                                 {{item.Title}}
@@ -149,27 +149,48 @@
                 SectionSubHeading : 'text-h5 white--text font-weight-light mt-2'
             },
             spacing : "d-inline-flex",
-            development:[{   
+            development:[{  
                 Title:"Mr. Scribbles",
                 Date: "20 Nov'19",
                 Description:"Mr scribbles is a robot that draws, but it's actions are contolled by your dance steps. Trained using Ml5 and programmed via arduino",
                 Tags: ['NodeJS','Arduino','Sockets'],
                 image: "/mr-scribbles.png",
                 link:"https://github.com/stuti-43m/scribblesV2/blob/master/README.md"
-                }, {   
-                Title:"Data viz for retail",
+                }, {
+                Title:"The one where you are one of them",
                 Date: "20 Nov'19",
-                Description:"Mr scribbles is a robot that draws, but it's actions are contolled by your dance steps.",
-                Tags: ['NodeJS','Arduino','Sockets'],
-                image: "/map-viz.png",
-                
-                }, {   
-                Title:"Servify",
+                Description:"This is a chat application where you have your words twisted by characters from friends. Have your words twisted by a machine-learning model trained on FRIENDS script and take the group conversation in a completely unanticipated direction.",
+                Tags: ['NodeJS','VueJS','RunwayML'],
+                image: "/friends-chat.png",
+                link:"https://github.com/43-stuti/friends-chat-client/blob/master/README.md"
+                },{ 
+                Title:"Data Visualisation",
                 Date: "20 Nov'19",
-                Description:"Mr scribbles is a robot that draws, but it's actions are contolled by your dance steps.",
-                Tags: ['Data viz','Front-end','Scraping'],
+                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence, based on the popluation density of the region",
+                Tags: ['NodeJS','Javascript','Google Maps API'],
                 image: "/map-viz.png",
-               
+                link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
+                }, { 
+                Title:"Connect",
+                Date: "20 Nov'19",
+                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
+                Tags: ['Puppeteer','NodeJS','RunwayML'],
+                image: "/connect.png",
+                link:"https://github.com/43-stuti/connect/blob/master/README.md"
+                }, { 
+                Title:"Vue website",
+                Date: "20 Nov'19",
+                Description:"A website built using Vue, vue-router and vue-store. Firebase for backend and threejs for subtle graphics",
+                Tags: ['VueJS','ThreeJs','Firebase'],
+                image: "/nm-creations.png",
+                link:"https://www.nmcreation.in/#/"
+                }, { 
+                Title:"Prophecy game",
+                Date: "20 Nov'19",
+                Description:"A game built using p5 and contolled using arduino and a few sensors",
+                Tags: ['p5.js','Arduino'],
+                image: "/prophecy-game.png",
+                link:"https://github.com/43-stuti/prophecy-game/blob/master/README.md"
                 }],
             design:[{
                 slug: 'whatsapp-redesign',    
@@ -200,40 +221,41 @@
                 Tags: ['NodeJS','Arduino','Sockets'],
                 image: "/mr-scribbles.png",
                 link:"https://github.com/stuti-43m/scribblesV2/blob/master/README.md"
-                }, { 
-                Title:"Data viz for retail",
+                }, {
+                Title:"The one where you are one of them",
                 Date: "20 Nov'19",
-                Description:"Mr scribbles is a robot that draws, but it's actions are contolled by your dance steps.",
-                Tags: ['NodeJS','Arduino','Sockets'],
-                image: "/map-viz.png",
-                styles:{
-                     card : {
-                     'background-color' : "#6d7994"
-                        },
-                        title : {
-                        color : "#ffffff"
-                        },
-                        description : {
-                        color : "#ffffff"
-                        }
-                    }
-                }, { 
-                Title:"Servify",
+                Description:"This is a chat application have your words twisted by a machine-learning model trained on FRIENDS script and be a part of the chat as a character from friends.",
+                Tags: ['NodeJS','VueJS','RunwayML'],
+                image: "/friends-chat.png",
+                link:"https://github.com/43-stuti/friends-chat-client/blob/master/README.md"
+                },{ 
+                Title:"Data Visualisation",
                 Date: "20 Nov'19",
-                Description:"Mr scribbles is a robot that draws, but it's actions are contolled by your dance steps.",
-                Tags: ['Data viz','Front-end','Scraping'],
+                Description:"Data viz for an ice-cream manufacturing company to give them a sense of regions where they could increase their presence, based on the popluation density of the region",
+                Tags: ['NodeJS','Javascript','Google Maps API'],
                 image: "/map-viz.png",
-                styles:{
-                     card : {
-                     'background-color' : "#6d7994"
-                        },
-                        title : {
-                        color : "#ffffff"
-                        },
-                        description : {
-                        color : "#ffffff"
-                        }
-                    }
+                link:"https://github.com/stuti-43m/tntmaps/blob/master/README.md"
+                }, { 
+                Title:"Connect",
+                Date: "20 Nov'19",
+                Description:"Automated process to send ML generated (intended absurd) messages to your Instagram friends.",
+                Tags: ['Puppeteer','NodeJS','RunwayML'],
+                image: "/connect.png",
+                link:"https://github.com/43-stuti/connect/blob/master/README.md"
+                }, { 
+                Title:"Vue website",
+                Date: "20 Nov'19",
+                Description:"A website built using Vue, vue-router and vue-store. Firebase for backend and threejs for subtle graphics",
+                Tags: ['VueJS','ThreeJs','Firebase'],
+                image: "/nm-creations.png",
+                link:"https://www.nmcreation.in/#/"
+                }, { 
+                Title:"Prophecy game",
+                Date: "20 Nov'19",
+                Description:"A game built using p5 and contolled using arduino and a few sensors",
+                Tags: ['p5.js','Arduino'],
+                image: "/prophecy-game.png",
+                link:"https://github.com/43-stuti/prophecy-game/blob/master/README.md"
                 }]
         }
     },
