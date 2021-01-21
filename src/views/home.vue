@@ -79,7 +79,7 @@
             <v-container align="center">
               <v-container class="ml-8">
                 <v-row align="center"> 
-                  <v-col class = "Welcome mt-lg-12" align = "center"
+                  <v-col class = "mt-lg-12" align = "center"
                         :cols = 12
                         :lg = 8
                         :sm = 12
@@ -148,6 +148,9 @@
           </v-container>
         </v-container>
         <RecentProjects :state="state"></RecentProjects>
+        <div ref="about">
+          <About></About>
+        </div>
       </v-col>
     </v-row>
   </div>
@@ -156,10 +159,12 @@
 <script>
 // @ is an alias to /src
 import RecentProjects from '@/components/RecentProjects.vue'
+import About from '@/components/About.vue'
 export default {
   name: 'Home',
   components: {
-    RecentProjects
+    RecentProjects,
+    About
   },
   data() {
     return {
@@ -180,7 +185,8 @@ export default {
         ref:'project'
       }, {
         name:'About',
-        route:'/about'
+        route:'/about',
+        ref:'about'
       }],
       drawer:true,
       activeNav:0
@@ -223,7 +229,6 @@ export default {
     }
   },
   mounted() {
-    console.log('BP',this.$vuetify.breakpoint.name);
     switch (this.$vuetify.breakpoint.name) {
           case 'xs':
           case 'sm':
@@ -274,9 +279,6 @@ export default {
       z-index: 0;
       position: absolute;
       margin-top: -100px;
-  }
-  .Welcome {
-    z-index: 1;
   }
   .active {
     color:#c53968;
