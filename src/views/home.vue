@@ -47,7 +47,7 @@
             <v-list-item>
               <v-row class="mt-8 ml-12">
                 <div class = "d-block mr-4" v-bind:class="[Classes.Description]"> 
-                       <a href="https://www.linkedin.com/in/stuti-mohgaonkar/" class = "spacing" target="_blank"> 
+                       <a href="https://www.linkedin.com/in/stuti-moh" class = "spacing" target="_blank"> 
                           <img src="/linkedin.png" aspect-ratio="2.1" contain>
                         </a>
                     </div>
@@ -63,6 +63,11 @@
                     </div>
               </v-row>
             </v-list-item>
+             <v-list-item>
+                <v-row class="ml-12 text-caption font-weight-regular text-left mt-2 grey--text">
+                    <a href="/resume.pdf" target="_blank" >My Resume</a>
+                </v-row>
+              </v-list-item>
         </v-list>
       </v-navigation-drawer>
       </v-col>
@@ -79,7 +84,7 @@
             <v-container align="center">
               <v-container class="ml-8">
                 <v-row align="center"> 
-                  <v-col class = "mt-lg-12" align = "center"
+                  <v-col class = "mt-lg-5" align = "center"
                         :cols = 12
                         :lg = 8
                         :sm = 12
@@ -92,34 +97,31 @@
                       </v-row>
                       <v-row  class="mt-lg-4" v-bind:class="[Classes.CoverText]" align='center'>
                         <v-col>
-                          Hi, I am Stuti.  
+                          Hi, I am Stuti.  <br> I am a software developer.
                         </v-col>
                       </v-row>
                       <v-row> 
                         <v-col class="align-start"
                                         :cols = 12
-                                        :lg = 7
+                                        :lg = 6
                                         :sm = 12
                                         :md = 10 >
                           <div class="d-block text-subtitle-2 font-weight-regular text-left mt-5 grey--text" :cols=5>
-                            I am a Software Developer. 
-                            On my off days, I love building playful hardware-software interactions. 
-              
+                            On my off days, I love building playful hardware-software interactions. Currently pursuing my Masters in Interactive Telecommunications from NYU.
+                            
                             
                           </div>
                         </v-col>
                       </v-row>
-                      <v-row> 
-                        <v-col class="d-flex align-start"
-                                        :cols = 12
-                                        :lg = 7
-                                        :sm = 12
-                                        :md = 10 >
-                          <div class="d-block text-subtitle-2 font-weight-regular text-left mt-5 grey--text" :cols=5>
-                            Currently pursuing my Masters in Interactive Telecommunications from NYU and actively looking for internships for summer 2021
-                          </div>
-                        </v-col>
-                      </v-row>
+                      
+                        <div class="ml-2 mr-7">
+                          <v-row class="mt-6 text-left text-subtitle-2 font-weight-regular text-left mt-5 grey--text">
+                              Selected personal and academic work below.<br>
+                          </v-row>
+                          <v-row class="mb-12 text-subtitle-2 font-weight-regular text-left mt-3 grey--text">
+                              For professional experience check out my <a href="https://www.linkedin.com/in/stuti-moh" target="_blank" class="inlineLink">linkedin </a> or <a href="/resume.pdf" target="_blank" class="inlineLink">resume.</a>
+                          </v-row>
+                        </div>
                     </div>
                   </v-col>
                 </v-row>
@@ -246,6 +248,11 @@ export default {
   position: fixed;
   background-color: rgb(247, 247, 247)
 }
+.inlineLink {
+  margin-right: 2px;
+  margin-left: 3px;
+  font-weight: 800;
+}
  .v-application a .activeLink {
     color: rgb(248, 247, 247) !important;
   }
@@ -257,7 +264,7 @@ export default {
     text-decoration: none;
   }
   .underline {
-    height: 2px;
+    height: 4px;
     color: rgb(255, 255, 255);
   }
   .activeUnderline {
